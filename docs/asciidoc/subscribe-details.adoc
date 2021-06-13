@@ -109,7 +109,7 @@ Done
 The last signature of the `subscribe` method includes a `Consumer<Subscription>`.
 
 NOTE: That variant requires you to do something with the `Subscription` (perform a
-`request(long)` on it or `cancel()` it). Otherwise the `Flux` hangs.
+`request(long)` on it or `cancel()` it). Otherwise the `Flux` hangs. ***This method is deprecated.***
 
 The following example shows the last signature of the `subscribe` method:
 
